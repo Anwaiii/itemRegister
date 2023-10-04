@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+thead th {
+	height: 60px;
+	background-color: #c9c9c9;
+	color: #000000;
+	justify-content: space-evenly;
+}
+

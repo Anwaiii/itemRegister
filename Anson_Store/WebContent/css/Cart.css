@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+thead tr:nth-child(1) {  /* ヘッダーの部分をデザインする */
+	height: 50px;
+	background-color: #00d9d9;
+	color: #ffffff;
+}
+
+thead th:nth-child(6) {		 /* 項目選択ヘッダーです。*/
+	width: 181px;
+
+}
+
+.itemName{		/* 項目選択列です。このセルのwidthは手動で調整して、スクロールバーとともに項目選択ヘッダー
+				   に合わせようとしています */
+	 width: 200px;
+}
+
+.choice{		/* 項目選択列です。このセルのwidthは手動で調整して、スクロールバーとともに項目選択ヘッダー
+				   に合わせようとしています */
+	 width: 163px;
+}

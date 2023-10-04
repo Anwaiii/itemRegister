@@ -1,0 +1,153 @@
+@charset "UTF-8";   /* */
+
+h1 {
+	text-align: center;
+	color: #00c8c8;
+	box-shadow: black;
+	border-style: solid;
+	border-color: #00d9d9 #ffffff #00d9d9 #ffffff;
+	margin: 30px;
+	padding: 20px;
+	text-shadow: 4px 4px #87f2f8;
+	box-shadow: 0 20px 10px -20px rgba(70, 189, 189, 0.7) inset, 0 -20px
+		10px -20px rgba(70, 189, 189, 0.7) inset;
+}
+
+caption {
+	font-weight: 700;
+}
+
+table {
+	text-align: center;
+	border-style: solid;
+	border-inline: solid #00bcd4;   /* 左と右の線 */
+	border-block-color : #00bcd4;	/* 上と下の線 */
+	border-collapse: collapse;
+	border-width:3px 3px;      /*  四辺が同じ太さにする */
+
+}
+
+th, td {
+	font-weight: bold;
+table-display: fixed;
+}
+
+
+table {
+	margin: auto;
+	table-display: fixed;
+}
+
+
+.serach {
+	text-align: center;
+}
+
+.href {
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.message {
+  text-align: center;
+}
+
+.message .success{               /* 登録できた時のメッセージをデザインする */
+	text-align: center;
+	color : #0000ff;
+}
+
+.message .fail{		 /* 登録できなかった時のメッセージをデザインする */
+	text-align: center;
+	color : #ff0080;
+}
+.buttonall {
+	text-align: center;
+
+}
+
+input.button:hover {
+	color: #00d9d9;
+	background: #FFFFFF;
+}
+
+#buttonDesign {              /* 検索と出力ボタンのデザインをする */
+	border-radius:10pt;
+	width: 5%;
+	height: 30px;
+	background-color: #00d9d9;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+thead tr:nth-child(1) {  /* ヘッダーの部分をデザインする */
+	height: 50px;
+	background-color: #00d9d9;
+	color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #eaffff;
+}
+
+
+tbody {		/* scroll bar */
+ display: block;
+  overflow-y: scroll;
+  height: 195px;
+
+}
+
+tbody td{
+  overflow: hidden;
+   text-overflow: ellipsis;
+    white-space: nowrap;
+  width: 100%;
+
+}
+thead {
+  display: block;
+}
+
+thead th:nth-child(1) {		/*  商品名ヘッダーです。このセルのwidthは.itemNameのwidthと同じでなければならない*/
+	width: 200px;
+}
+
+.itemName{		/* 商品名列 */
+  width: 200px;
+  display:inline-block;
+  white-space : nowrap;
+	overflow : hidden;
+	text-overflow : ellipsis;
+}
+
+thead th:nth-child(2) {		 /* 値段ヘッダーです。このセルのwidthは.priceのwidthと同じでなければならない*/
+	width: 102px;
+
+}
+
+.price{		/* 値段列 */
+	width: 100px;
+	display:inline-block;
+}
+
+thead th:nth-child(3) {		 /* 在庫数ヘッダーです。このセルのwidthは.stockのwidthと同じでなければならない*/
+	width: 100px;
+
+}
+
+.stock{		/* 在庫数列 */
+	width: 100px;
+	display:inline-block;
+}
+thead th:nth-child(4) {		 /* 項目選択ヘッダーです。*/
+	width: 181px;
+
+}
+
+.choice{		/* 項目選択列です。このセルのwidthは手動で調整して、スクロールバーとともに項目選択ヘッダー
+				   に合わせようとしています */
+	 width: 163px;
+	 display:inline-block;
+}

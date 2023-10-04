@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+h1 {
+	text-align: center;
+	color: #00c8c8;
+	box-shadow: black;
+	border-style: solid;
+	border-color:  #00d9d9 #ffffff  #00d9d9 #ffffff;
+
+	margin: 30px;
+	padding: 20px;
+	text-shadow : 4px 4px #87f2f8;
+	box-shadow: 0 20px 10px -20px rgba(70, 189, 189, 0.7) inset, 0 -20px 10px -20px rgba(70, 189, 189, 0.7) inset;
+
+}
+
+caption {
+	font-weight: 700;
+}
+
+table {
+	text-align: center;
+	border-style: solid;
+	border-inline: solid #00bcd4;   /* 左と右の線 */
+	border-block-color : #00bcd4;	/* 上と下の線 */
+	border-collapse: collapse;
+	border-width:3px 3px;      /*  四辺が同じ太さにする */
+
+}
+
+.href {
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+th, td {
+
+	font-weight: bold;
+	width: 100px;
+	height: 50px;
+}
+
+table {
+	margin: auto;
+}
+
+table, input {
+
+}
+
+div.buttonall {
+	text-align: center;
+
+}
+
+.register {
+  text-align: center;
+}
+.href {
+	padding-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.csvFile {
+ text-align: center;
+}
+.register .success{
+	text-align: center;
+	color : #0000ff;
+}
+
+.register .fail{
+	text-align: center;
+	color : #ff0080;ss
+}
+input.button:hover {
+	box-shadow: none;
+	test-shadow: none;
+	color: #00d9d9;
+	background: #FFFFFF;
+}
+
+input.button {
+	border-radius:10pt;
+	width: 5%;
+	height: 30px;
+	background-color: #00d9d9;
+	color: #ffffff;
+	font-weight: bold;
+	}
+
+
+thead tr:nth-child(1) {
+	background-color: #00d9d9;
+	color: #ffffff;
+}

@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+thead th:nth-child(1) {  /* ヘッダーの部分をデザインする */
+	height: 50px;
+	background-color: #00d9d9;
+	color: #ffffff;
+}
+
